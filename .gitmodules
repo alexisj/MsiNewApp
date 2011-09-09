@@ -13,6 +13,3 @@
 [submodule "vendor/bundles/Knp/Bundle/PaginatorBundle"]
 	path = vendor/bundles/Knp/Bundle/PaginatorBundle
 	url = git://github.com/knplabs/KnpPaginatorBundle.git
-[submodule "vendor/bundles/Msi/ContentBundle"]
-	path = vendor/bundles/Msi/ContentBundle
-	url = git://github.com/alexisj/MsiContentBundle.git
