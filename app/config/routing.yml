@@ -26,3 +26,6 @@ fos_user_resetting:
 fos_user_change_password:
     resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
     prefix: /change-password
+
+MsiContentBundle:
+  resource: "@MsiContentBundle/Resources/config/routing.yml"
