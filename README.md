@@ -18,4 +18,4 @@ Create database and schema and load fixtures
 
 ????
 
-Profit!
+PROFIT!
