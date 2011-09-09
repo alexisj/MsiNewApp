@@ -72,3 +72,7 @@ fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb'
     firewall_name: main
     user_class: Msi\UserBundle\Entity\User
+
+#Knp Paginator
+knp_paginator:
+    templating: ~ # enables view helper and twig

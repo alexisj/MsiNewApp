@@ -18,6 +18,8 @@ $loader->registerNamespaces(array(
     'Stof'             => __DIR__.'/../vendor/bundles',
     'Gedmo'            => __DIR__.'/../vendor/gedmo-doctrine-extensions/lib',
     'FOS'              => __DIR__.'/../vendor/bundles',
+    'Knp'                       => __DIR__.'/../vendor/bundles',
+    'Zend'                => __DIR__.'/../vendor/Zend/library',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
