@@ -6,9 +6,9 @@ Install vendors
 
     php bin/vendors install
 
-Create and chmod cache and logs in app folder
+Create and chmod cache and logs in app
 
-Create new file parameters.ini in app/config etc
+Create new file parameters.ini in app/config, etc.
 
 Create database and schema and load fixtures
 
