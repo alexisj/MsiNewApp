@@ -10,10 +10,14 @@ Install vendors
 
     php bin/vendors install
 
-Create database and schema and load fixtures
+Create database and schema
 
     app/console doctrine:database:create
     app/console doctrine:schema:create
+
+Install assets
+
+    app/console assets:install --symlink web
 
 ????
 
