@@ -1,19 +1,7 @@
-MsiGalleryBundle:
-    resource: "@MsiGalleryBundle/Resources/config/routing.yml"
-    prefix:   /
-
 MsiUserBundle:
     resource: "@MsiUserBundle/Controller/"
     type:     annotation
     prefix:   /
-
-MsiCoreBundle:
-  resource: "@MsiCoreBundle/Resources/config/routing.yml"
-
-# Internal routing configuration to handle ESI
-#_internal:
-#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
-#   prefix:   /_internal
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
@@ -33,6 +21,3 @@ fos_user_resetting:
 fos_user_change_password:
     resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
     prefix: /change-password
-
-MsiContentBundle:
-  resource: "@MsiContentBundle/Resources/config/routing.yml"
